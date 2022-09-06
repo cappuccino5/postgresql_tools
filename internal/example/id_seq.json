@@ -1,0 +1,236 @@
+{
+  "RECORDS": [
+    {
+      "sequence_name": "mqtt_account_id_seq",
+      "table_name": "mqtt_account"
+    },
+    {
+      "sequence_name": "mqtt_acls_id_seq",
+      "table_name": "mqtt_acls"
+    },
+    {
+      "sequence_name": "userinfo_id_seq",
+      "table_name": "userinfo"
+    },
+    {
+      "sequence_name": "application_id_seq",
+      "table_name": "application"
+    },
+    {
+      "sequence_name": "device_id_seq",
+      "table_name": "device"
+    },
+    {
+      "sequence_name": "gateway_id_seq",
+      "table_name": "gateway"
+    },
+    {
+      "sequence_name": "band_id_seq",
+      "table_name": "band"
+    },
+    {
+      "sequence_name": "gateway_type_id_seq",
+      "table_name": "gateway_type"
+    },
+    {
+      "sequence_name": "filestore_id_seq",
+      "table_name": "filestore"
+    },
+    {
+      "sequence_name": "bridge_id_seq",
+      "table_name": "bridge"
+    },
+    {
+      "sequence_name": "pktfwd_id_seq",
+      "table_name": "pktfwd"
+    },
+    {
+      "sequence_name": "tx_lut_id_seq",
+      "table_name": "tx_lut"
+    },
+    {
+      "sequence_name": "global_conf_id_seq",
+      "table_name": "global_conf"
+    },
+    {
+      "sequence_name": "platform_conf_id_seq",
+      "table_name": "platform_conf"
+    },
+    {
+      "sequence_name": "extend_protocol_id_seq",
+      "table_name": "extend_protocol"
+    },
+    {
+      "sequence_name": "gateway_packets_v2_id_seq",
+      "table_name": "gateway_packets_v2"
+    },
+    {
+      "sequence_name": "ns_device_packets_v2_id_seq",
+      "table_name": "ns_device_packets_v2"
+    },
+    {
+      "sequence_name": "device_uplink_v2_id_seq",
+      "table_name": "device_uplink_v2"
+    },
+    {
+      "sequence_name": "device_downlink_v2_id_seq",
+      "table_name": "device_downlink_v2"
+    },
+    {
+      "sequence_name": "mc_downlink_v2_id_seq",
+      "table_name": "mc_downlink_v2"
+    },
+    {
+      "sequence_name": "gateway_connection_v2_id_seq",
+      "table_name": "gateway_connection_v2"
+    },
+    {
+      "sequence_name": "device_activation_id_seq",
+      "table_name": "device_activation"
+    },
+    {
+      "sequence_name": "device_queue_id_seq",
+      "table_name": "device_queue"
+    },
+    {
+      "sequence_name": "mc_queue_id_seq",
+      "table_name": "mc_queue"
+    },
+    {
+      "sequence_name": "subnet_switch_device_id_seq",
+      "table_name": "subnet_switch_device"
+    },
+    {
+      "sequence_name": "ns_setting_id_seq",
+      "table_name": "ns_setting"
+    },
+    {
+      "sequence_name": "fuota_deployment_id_seq",
+      "table_name": "fuota_deployment"
+    },
+    {
+      "sequence_name": "channel_plan_switch_gateway_id_seq",
+      "table_name": "channel_plan_switch_gateway"
+    },
+    {
+      "sequence_name": "fuota_deployment_device_history_id_seq",
+      "table_name": "fuota_deployment_device_history"
+    },
+    {
+      "sequence_name": "gateway_hot_data_id_seq",
+      "table_name": "gateway_hot_data"
+    },
+    {
+      "sequence_name": "mc_downlink_ext_id_seq",
+      "table_name": "mc_downlink_ext"
+    },
+    {
+      "sequence_name": "gateway_stats_record_v2_id_seq",
+      "table_name": "gateway_stats_record_v2"
+    },
+    {
+      "sequence_name": "gateway_command_record_id_seq",
+      "table_name": "gateway_command_record"
+    },
+    {
+      "sequence_name": "file_id_seq",
+      "table_name": "file"
+    },
+    {
+      "sequence_name": "pico_id_seq",
+      "table_name": "pico"
+    },
+    {
+      "sequence_name": "sdk_version_id_seq",
+      "table_name": "sdk_version"
+    },
+    {
+      "sequence_name": "gateway_upgrade_info_id_seq",
+      "table_name": "gateway_upgrade_info"
+    },
+    {
+      "sequence_name": "gateway_upgrade_record_id_seq",
+      "table_name": "gateway_upgrade_record"
+    },
+    {
+      "sequence_name": "subnet_switch_task_id_seq",
+      "table_name": "subnet_switch_task"
+    },
+    {
+      "sequence_name": "gateway_conf_id_seq",
+      "table_name": "gateway_conf"
+    },
+    {
+      "sequence_name": "gateway_network_record_v2_id_seq",
+      "table_name": "gateway_network_record_v2"
+    },
+    {
+      "sequence_name": "gateway_system_record_v2_id_seq",
+      "table_name": "gateway_system_record_v2"
+    },
+    {
+      "sequence_name": "device_session_id_seq",
+      "table_name": "device_session"
+    },
+    {
+      "sequence_name": "gateway_cmd_token_id_seq",
+      "table_name": "gateway_cmd_token"
+    },
+    {
+      "sequence_name": "tbl_xulie2_id_seq",
+      "table_name": "tbl_xulie2"
+    },
+    {
+      "sequence_name": "tags_device_id_seq",
+      "table_name": "tags_device"
+    },
+    {
+      "sequence_name": "tags_gateway_id_seq",
+      "table_name": "tags_gateway"
+    },
+    {
+      "sequence_name": "packet_forwarder_version_id_seq",
+      "table_name": "packet_forwarder_version"
+    },
+    {
+      "sequence_name": "upgrade_record_id_seq",
+      "table_name": "upgrade_record"
+    },
+    {
+      "sequence_name": "gateway_command_record_v2_id_seq",
+      "table_name": "gateway_command_record_v2"
+    },
+    {
+      "sequence_name": "deb_version_id_seq",
+      "table_name": "deb_version"
+    },
+    {
+      "sequence_name": "agent_version_id_seq",
+      "table_name": "agent_version"
+    },
+    {
+      "sequence_name": "upgrade_task_id_seq",
+      "table_name": "upgrade_task"
+    },
+    {
+      "sequence_name": "packet_forward_version_id_seq",
+      "table_name": "packet_forward_version"
+    },
+    {
+      "sequence_name": "frequency_scan_file_id_seq",
+      "table_name": "frequency_scan_file"
+    },
+    {
+      "sequence_name": "gateway_packets_id_seq",
+      "table_name": "gateway_packets"
+    },
+    {
+      "sequence_name": "ns_device_packets_id_seq",
+      "table_name": "ns_device_packets"
+    },
+    {
+      "sequence_name": "as_device_packets_id_seq",
+      "table_name": "as_device_packets"
+    }
+  ]
+}
