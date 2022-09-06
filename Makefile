@@ -13,6 +13,6 @@
  endif
 
  build:
-	GOOS="linux" GOARCH="amd64" go build -o bin/prostgre_tool cmd/prostgre_tool/main.go
+	GOOS="linux" GOARCH="amd64" go build -o bin/postgres_tool cmd/postgres_tool/main.go
 
 

@@ -10,10 +10,14 @@ import (
 )
 
 func main() {
-	flagSet := flag.NewFlagSet("postgres_seq", flag.ExitOnError)
+	flagSet := flag.NewFlagSet("postgres_tool", flag.ExitOnError)
 	projectFileDirectoryPointer := flagSet.String("file", "./internal/example/id_seq.json", "path to project file")
 	projectOutputFileDirectoryPointer := flagSet.String("target", "id_seq_sql.out", "output to target file")
-
+	err := flagSet.Parse(os.Args[1:])
+	if err != nil {
+		fmt.Errorf("%v", err)
+		return
+	}
 	projectFileDirectory := *projectFileDirectoryPointer
 	projectOutputFileDirectory := *projectOutputFileDirectoryPointer
 
